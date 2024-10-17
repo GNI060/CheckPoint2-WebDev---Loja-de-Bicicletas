@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color: #68d6a3ff;
+    
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.navegacao {
+    display: flex;
+    gap: 50px;
+    margin-right: 150px;
+}
+
+.link-nav {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.link-nav:hover {
+    color: #2f9766;
+}
+
+.carrinho {
+    border: none;
+    background-color: #68d6a3ff;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.btn-carrinho {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
