@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+.fundo-pagina {
     background-image: linear-gradient(45deg, purple,aquamarine,green);
     background-size: 300%, 300%;
     animation: color 12s ease-in-out infinite;
@@ -21,6 +21,8 @@ body {
         background-position: 0 50%;
     }
 }
+
+/* Código do cabaçalho */
 
 .cabecalho {
     display: flex;
@@ -40,17 +42,17 @@ body {
 .navegacao {
     display: flex;
     gap: 50px;
-    color: white;
+    margin-right: 150px;
 }
 
-.link {
+.link-nav {
     font-size: 30px;
     text-decoration: none;
-    color: inherit;
+    color: white;
     transition: color 0.3s ease;
 }
 
-.link:hover {
+.link-nav:hover {
     color: #2f9766;
 }
 
@@ -58,6 +60,7 @@ body {
     border: none;
     background-color: #68d6a3ff;
     cursor: pointer;
+    margin-right: 25px;
 }
 
 .btn-carrinho {
@@ -65,3 +68,72 @@ body {
     border: none;
     cursor: pointer;
 }
+
+/* Código do espaço das imagens passando */
+
+.espaco-imagens {
+    border: 1px solid black;
+    width: 100%;
+    height: 50pc;
+}
+
+/* Código do explorar da página */
+
+.explorar {
+    border: none;
+    width: 100%;
+    height: 570px;
+    text-align: center;
+}
+
+.imagem-explorar {
+    width: 400px;
+    height: auto;
+}
+
+.texto-explorar {
+    font-size: 20px;
+    color: black;
+    margin: 10px 300px 10px 300px;
+}
+
+.link-explorar {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Código do rodapé da página */
+
+.rodape {
+    background-color: #68d6a3ff; 
+    padding: 50px; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.institucional .suporte .termos {
+    flex: 1; 
+    min-width: 200px; 
+    margin-bottom: 20px; 
+}
+
+.titulo-rodape {
+    font-size: 30px; 
+    margin-bottom: 20px;
+}
+
+.link-rodape {
+    display: block; 
+    color: white; 
+    text-decoration: none; 
+    margin-bottom: 15px; 
+    transition: color 0.3s ease; 
+}
+
+.link-rodape:hover {
+    color: #48b281; 
+}
+
+
