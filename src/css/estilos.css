@@ -4,49 +4,59 @@
     box-sizing: border-box;
 }
 
-.caixa {
-    height: 300px;
-    width: 100%;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
+body {
+    background-image: linear-gradient(45deg, purple,aquamarine,green);
+    background-size: 300%, 300%;
+    animation: color 12s ease-in-out infinite;
 }
 
-.header {
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 70px;
     width: 100%;
-    background-color: #68d6a3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+    background-color: #68d6a3ff;
+    
 }
 
-.empresa {
+.logo {
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+    margin-left: 10px;
 }
 
-.sobre, .quiz, .contato {
+.navegacao {
+    display: flex;
+    gap: 50px;
     color: white;
-    font-size: 40px;
 }
 
-.link-sobre, .link-quiz, .link-contato {
+.link {
+    font-size: 30px;
     text-decoration: none;
     color: inherit;
     transition: color 0.3s ease;
 }
 
-.link-sobre:hover, .link-quiz:hover, .link-contato:hover {
-    color: #48b281;
+.link:hover {
+    color: #2f9766;
 }
 
 .carrinho {
     border: none;
-    background-color: #68d6a3;
+    background-color: #68d6a3ff;
     cursor: pointer;
 }
 
