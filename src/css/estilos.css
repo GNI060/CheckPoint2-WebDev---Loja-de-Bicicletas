@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa {
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #68d6a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.empresa {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.sobre, .quiz, .contato {
+    color: white;
+    font-size: 40px;
+}
+
+.link-sobre, .link-quiz, .link-contato {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.link-sobre:hover, .link-quiz:hover, .link-contato:hover {
+    color: #48b281;
+}
+
+.carrinho {
+    border: none;
+    background-color: #68d6a3;
+    cursor: pointer;
+}
+
+.btn-carrinho {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
