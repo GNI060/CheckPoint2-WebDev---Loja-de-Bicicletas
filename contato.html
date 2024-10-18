@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/contato.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <div class="cabecalho">
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./src/assets/cyclo_logo+nome.png" width="150px" alt="Logo da empresa">
+            </a>
+        </div> 
+
+        <div class="navegacao">
+            <a href="./sobre.html" class="link-nav">Sobre</a>
+            <a href="./quizz.html" class="link-nav">Quiz</a>
+            <a href="./contato.html" class="link-nav">Contato</a>
+        </div>
+
+        <div class="carrinho">
+            <button class="btn-carrinho">
+                <img src="./src/assets/carrinho.png" alt="Ícone de carrinho" width="30px">
+            </button>
+        </div>
+
+    </div>        
+    
+    
+    <form id="form">
+        <fieldset>
+         
+         <p>
+             <label for="nome">Nome do usuario:</label>
+             <input type="text" name="nome" id="nome" maxlength="20"/>
+         </p>
+         <p>
+             <label for="email">Email do usuario:</label>
+             <input type="text" name="email" id="email" maxlength="50"/>
+         </p>
+         <p>
+            <label for="telefone">Telefone do usuario:</label>
+            <input type="text" name="telefone" id="telefone" maxlength="50"/>
+        </p>
+        
+        <textarea placeholder="Deixe sua opinião"></textarea>
+
+         <p id="1"></p>
+         <p id="2"></p>
+         <p id="3"></p>
+         <button type="submit" id="btn">Cadastrar</button>
+ 
+        </fieldset>
+ 
+     </form>
+
+    <script src="src/js/contato.js"></script>
+</body>
+</html>

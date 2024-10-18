@@ -1,4 +1,4 @@
-// alert ("Vamos conhecer sobre Bikes! ")
+alert ("Vamos conhecer sobre Bikes! ")
 
 const data = [
     {
