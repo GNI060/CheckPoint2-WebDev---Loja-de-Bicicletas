@@ -1,0 +1,1 @@
+alert('Atenção: As informações a seguir são fictícias! Nada deverá ser levado como verdade.')
