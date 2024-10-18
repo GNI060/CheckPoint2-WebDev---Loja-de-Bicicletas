@@ -48,3 +48,90 @@
     border: none;
     cursor: pointer;
 }
+
+.fundo-imagem {
+    background-image: url('../assets/img1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 500px; 
+    position: relative; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.fundo-imagem-texto {
+    color: white; 
+    font-size: 60px; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px; 
+    border-radius: 20px; 
+}
+
+
+/* Código SOBRE a história da Cyclo */
+
+.sobre {
+    padding: 50px;
+    margin: 0;
+    background-image: linear-gradient(45deg, #361c3b,aquamarine,green);
+    background-size: 300%, 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+}
+
+.titulo-sobre {
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+
+.texto-sobre {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Código do rodapé da página */
+
+.rodape {
+    background-color: #68d6a3ff; 
+    padding: 50px; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.institucional .suporte .termos {
+    flex: 1; 
+    min-width: 200px; 
+    margin-bottom: 20px; 
+}
+
+.titulo-rodape {
+    font-size: 30px; 
+    margin-bottom: 20px;
+}
+
+.link-rodape {
+    display: block; 
+    color: white; 
+    text-decoration: none; 
+    margin-bottom: 15px; 
+    transition: color 0.3s ease; 
+}
+
+.link-rodape:hover {
+    color: #48b281; 
+}
