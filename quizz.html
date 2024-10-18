@@ -3,25 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyclo Quizz</title>
+    <title>Cyclo Quiz</title>
     <link rel="stylesheet" href="./src/css/quizz.css">
 </head>
 <body>
+     <a  style="padding: 5px; color: rgb(11, 117, 52);" href="./index.html" class="link-nav">Voltar</a>
 
-    <h2>QUIZ APP</h2>
-    <main>
-      <div class="content">
-        <span class="spnQtd"></span>
-        <span class="question"></span>
-        <div class="answers"></div>
-      </div>
-      <div class="finish">
-        <span></span>
-        <button>Reiniciar</button>
-      </div>
-    </main>
-      
     
-    <script src="./src/js/quizz.js"  type="module"></script>
+    <div class="pag">
+    <div class="quiz-container" id="quiz"> 
+        <div class="quiz-header">
+            <h2 id="question">Questão</h2>
+            <ul>
+                <li>
+                    <input class="answer" type="radio" name="answer" id="a">
+                    <label for="a" id="optionA">Opção A</label>
+                </li>
+                <li>
+                    <input class="answer" type="radio" name="answer" id="b">
+                    <label for="b" id="optionB">Opção B</label>
+                </li>
+                <li>
+                    <input class="answer" type="radio" name="answer" id="c">
+                    <label for="c" id="optionC">Opção C</label>
+                </li>
+                <li>
+                    <input class="answer" type="radio" name="answer" id="d">
+                    <label for="d" id="optionD">Opção D</label>
+                </li>
+            </ul>
+        </div>
+
+        <button class="submit">Enviar</button>
+    </div>
+    </div>
+    <script src="./src/js/quizz.js" type="module"></script>
 </body>
 </html>
