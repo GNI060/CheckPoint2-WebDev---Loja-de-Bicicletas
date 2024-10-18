@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color: #68d6a3ff;
+    
+}
+
 .pag {
     background-image: linear-gradient(45deg, #361c3b,#7fffd4,green);
     background-size: 300%, 300%;
@@ -30,12 +40,23 @@
 .link-nav {
     font-size: 30px;
     text-decoration: none;
-    color: black;
+    color: white;
     transition: color 0.3s ease;
 }
 
 .link-nav:hover {
     color: #2f9766;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.navegacao {
+    display: flex;
+    gap: 50px;
+    margin-right: 150px;
 }
 
 .quiz-container{
